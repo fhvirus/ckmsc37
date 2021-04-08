@@ -1,3 +1,254 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+################################# Basic configuration #########################
+# Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+baseURL = "http://examplesite.org"
+title = "Serendipity"
+theme = "airspace-hugo"
+# Number of posts per page in list view
+paginate = "4"
+# Post excerpt length
+summaryLength = "30"
+# Disabled languages
+disableLanguages = []
+# Short name to enable Disqus comments
+disqusShortname = "" # Get your shortname from here: https://disqus.com/profile/signup/
+# Measurement ID (G-XXXXXXX) to enable Google Analytics
+googleAnalytics = ""
+
+
+################################# Output formats ##############################
+# Documentation: https://gohugo.io/templates/output-formats/#customizing-output-formats
+
+[outputs]
+home = [ "HTML" ]
+
+
+################################# Markup ######################################
+# Documentation: https://gohugo.io/getting-started/configuration-markup
+
+[markup.goldmark.renderer]
+# Allow "unsafe" HTML in Markdown
+unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 6
+  ordered = false
+
+
+################################# Default parameters ##########################
+[params]
+logo = "images/logo.png"
+logo_width = "150px"
+# OpenGraph / Twitter Card metadata
+title = "Airspace Hugo Template"
+description = "This is meta description"
+author = "Themefisher"
+images = [ "images/logo.png" ] # First image here will be used as fallback if a page has no images of its own
+
+
+################################# Sidebar widgets #############################
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+
+
+################################# Contact page ################################
+[params.contact]
+# Address block
+phone = "(02) 2303 4381"
+email = "Serendipity.ckmsc37@gmail.com"
+location = "100 台北市中正區南海路56號"
+# Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
+address_descriptors = true
+
+[params.contact.form]
+enable = false
+# Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
+use_netlify = false
+# Form action
+## For Formspree.io: Your Form ID URL, e.g. `https://formspree.io/f/{form_id}`
+## For Netlify Forms: Path to a custom [success page](https://docs.netlify.com/forms/setup/#success-messages)
+action = "#"
+
+
+################################# Google map ##################################
+[params.gmap]
+enable = true
+gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+map_latitude = "25.0311123"
+map_longitude = "121.5121811"
+map_marker = "images/marker.png"
+
+
+################################# Preloader ###################################
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif image
+
+
+################################# Cookies #####################################
+[params.cookies]
+enable = true
+expire_days = 2
+
+
+################################# Social Media ################################
+[[params.social]]
+icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.instagram.com/serendipity_ckmsc37th/"
+
+# [[params.social]]
+# icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+# 
+# [[params.social]]
+# icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+# 
+# [[params.social]]
+# icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+# 
+# [[params.social]]
+# icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+# 
+# [[params.social]]
+# icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+# 
+# [[params.social]]
+# icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+# link = "#"
+
+
+################################# Plugins #####################################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/ionicons/css/ionicons.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+attributes = "defer"
+
+
+################################# English translation #########################
+[languages.en]
+languageName = "English"
+languageCode = "en-US"
+contentDir = "content/english"
+weight = 1
+copyright = "台北市立建國高級中學 第 37 屆數理資優班成果發表會 [Serendipity](/)"
+
+# Main menu
+[[languages.en.menu.main]]
+name = "首頁"
+URL = "/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "關於我們"
+URL = "about"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "作品集"
+URL = "project"
+weight = 3
+
+[[languages.en.menu.main]]
+name = "不知道要放什麼，所有文章？"
+URL = "blog"
+weight = 4
+
+[[languages.en.menu.main]]
+weight = 5
+name = "科目介紹"
+hasChildren = true
+
+  [[languages.en.menu.main]]
+  parent = "科目介紹"
+  name = "還沒"
+  URL = "faq"
+  weight = 1
+
+  [[languages.en.menu.main]]
+  parent = "科目介紹"
+  name = "做好"
+  URL = "pricing"
+  weight = 2
+
+  [[languages.en.menu.main]]
+  parent = "科目介紹"
+  name = "等我一下"
+  URL = "service"
+  weight = 3
+
+[[languages.en.menu.main]]
+name = "聯絡方式"
+URL = "contact"
+weight = 6
+
+# Footer menu
+[[languages.en.menu.footer]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[languages.en.menu.footer]]
+name = "Project"
+URL = "project"
+weight = 2
+
+[[languages.en.menu.footer]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[languages.en.menu.footer]]
+name = "Pricing"
+URL = "pricing"
+weight = 4
+
+[[languages.en.menu.footer]]
+name = "FAQ"
+URL = "faq"
+weight = 5
+
+[[languages.en.menu.footer]]
+name = "聯絡方式"
+URL = "contact"
+weight = 6
