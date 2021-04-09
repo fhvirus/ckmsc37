@@ -1,5 +1,5 @@
 ---
-title: "About Our Company"
+title: "關於我們"
 description: "this is meta description"
 bg_image: "images/feature-bg.jpg"
 layout: "about"

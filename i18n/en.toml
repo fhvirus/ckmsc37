@@ -4,9 +4,9 @@ other = "To the home page"
 [404_message]
 other = "Sorry – this page does not seem to exist (anymore)."
 [address_title]
-other = "Address"
+other = "地址"
 [all]
-other = "All"
+other = "全部"
 [buy_now]
 other = "Buy now"
 [categories]

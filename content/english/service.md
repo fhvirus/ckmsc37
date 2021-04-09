@@ -26,7 +26,7 @@ featured_service:
   service_item:
     # featured service item loop
     - name : "Interface Design"
-      icon : "ion-erlenmeyer-flask"
+      icon : "ion-ios-americanfootball"
       color : "primary"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
       
@@ -51,27 +51,27 @@ service:
           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
   service_item:
     # service item loop
-    - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-infinite #ionicon pack v2 : https://ionicons.com/v2/
       name: 數學
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : ion-compass #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-monitor #ionicon pack v2 : https://ionicons.com/v2/
       name: 資訊
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-android-globe #ionicon pack v2 : https://ionicons.com/v2/
       name: 地科
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-flask #ionicon pack v2 : https://ionicons.com/v2/
       name: 化學
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
     # service item loop
-    - icon : ion-headphone #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : ion-ios-bolt #ionicon pack v2 : https://ionicons.com/v2/
       name: 物理
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 

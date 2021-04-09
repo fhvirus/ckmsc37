@@ -224,27 +224,27 @@ weight = 6
 
 # Footer menu
 [[languages.en.menu.footer]]
-name = "About"
+name = "關於我們"
 URL = "about"
 weight = 1
 
 [[languages.en.menu.footer]]
-name = "Project"
+name = "作品集"
 URL = "project"
 weight = 2
 
 [[languages.en.menu.footer]]
-name = "Service"
+name = "這裡"
 URL = "service"
 weight = 3
 
 [[languages.en.menu.footer]]
-name = "Pricing"
+name = "還在"
 URL = "pricing"
 weight = 4
 
 [[languages.en.menu.footer]]
-name = "FAQ"
+name = "整修"
 URL = "faq"
 weight = 5
 
