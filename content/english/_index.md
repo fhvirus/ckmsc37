@@ -15,8 +15,8 @@ banner:
 about:
   enable: true
   title: "我們是誰？"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
+  description: "這裡還在施工"
+  content: "安全第一"
   image: "images/wrapper-img.png"
 
 
@@ -25,17 +25,38 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
   title: "Serendipity 是什麼？"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  content: "《錯誤》　鄭愁予
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+我打江南走過
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+那等在季節裡的容顏如蓮花般開落
+
+
+東風不來，三月的柳絮不飛
+
+
+你的心如小小的寂寞的城
+
+
+恰若青石的街道向晚
+
+
+跫音不響，三月的春帷不揭
+
+
+你底心是小小的窗扉緊掩
+
+
+我達達的馬蹄是美麗的錯誤
+
+
+我不是歸人，是個過客⋯⋯
   "
   button:
     enable: true
-    label: "View Works"
+    label: "瀏覽我們的作品"
     link: "https://youtu.be/dQw4w9WgXcQ"
 
 

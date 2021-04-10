@@ -47,8 +47,11 @@ featured_service:
 service:
   enable : true
   title : "科目簡介"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  description : "您撥的網站施工中，請稍候再撥⋯⋯
+
+
+  The website you dialed is under construction, please try again later."
+
   service_item:
     # service item loop
     - icon : ion-ios-infinite #ionicon pack v2 : https://ionicons.com/v2/
