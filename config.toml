@@ -70,13 +70,11 @@ use_netlify = false
 action = "#"
 
 
-################################# Google map ##################################
-[params.gmap]
+################################# Not Google map ##############################
+[params.map]
 enable = true
-gmap_api = "AIzaSyAo73vFonxDkNp9KQY_j9mg6MZmscF31aw"
-map_latitude = "25.0311123"
-map_longitude = "121.5121811"
-map_marker = "images/marker.png"
+map_latitude = 25.031250257133674
+map_longitude = 121.51217937469482
 
 
 ################################# Preloader ###################################
