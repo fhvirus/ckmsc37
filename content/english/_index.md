@@ -5,7 +5,7 @@ banner:
   bg_image: "images/slider-bg.jpg"
   bg_overlay: true
   title: "Serendipity"
-  content: "請總召下副標"
+  content: "(n.) The fact of finding interesting or valuable things by chance."
   button:
     enable: true
     label: "瀏覽我們的作品"
@@ -47,7 +47,7 @@ service:
 
 ############################ call to action ###########################
 cta:
-  enable: true
+  enable: false
   bg_image: "images/call-to-action-bg.jpg"
   title: "這裡也不知道要放什麼，刪掉好ㄌ"
   content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
@@ -58,7 +58,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  enable: true
+  enable: false
   title: "Fun Facts About Us （應該可以真的放這個吧）"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:

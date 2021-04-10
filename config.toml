@@ -73,7 +73,7 @@ action = "#"
 ################################# Google map ##################################
 [params.gmap]
 enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+gmap_api = "AIzaSyAo73vFonxDkNp9KQY_j9mg6MZmscF31aw"
 map_latitude = "25.0311123"
 map_longitude = "121.5121811"
 map_marker = "images/marker.png"
@@ -179,43 +179,43 @@ name = "首頁"
 URL = "/"
 weight = 1
 
-[[languages.en.menu.main]]
-name = "關於我們"
-URL = "about"
-weight = 2
-
-[[languages.en.menu.main]]
-name = "作品集"
-URL = "project"
-weight = 3
-
-[[languages.en.menu.main]]
-name = "不知道要放什麼，所有文章？"
-URL = "blog"
-weight = 4
-
-[[languages.en.menu.main]]
-weight = 5
-name = "科目介紹"
-hasChildren = true
-
-  [[languages.en.menu.main]]
-  parent = "科目介紹"
-  name = "還沒"
-  URL = "faq"
-  weight = 1
-
-  [[languages.en.menu.main]]
-  parent = "科目介紹"
-  name = "做好"
-  URL = "pricing"
-  weight = 2
-
-  [[languages.en.menu.main]]
-  parent = "科目介紹"
-  name = "等我一下"
-  URL = "service"
-  weight = 3
+# [[languages.en.menu.main]]
+# name = "關於我們"
+# URL = "about"
+# weight = 2
+# 
+# [[languages.en.menu.main]]
+# name = "作品集"
+# URL = "project"
+# weight = 3
+# 
+# [[languages.en.menu.main]]
+# name = "不知道要放什麼，所有文章？"
+# URL = "blog"
+# weight = 4
+# 
+# [[languages.en.menu.main]]
+# weight = 5
+# name = "科目介紹"
+# hasChildren = true
+# 
+#   [[languages.en.menu.main]]
+#   parent = "科目介紹"
+#   name = "還沒"
+#   URL = "faq"
+#   weight = 1
+# 
+#   [[languages.en.menu.main]]
+#   parent = "科目介紹"
+#   name = "做好"
+#   URL = "pricing"
+#   weight = 2
+# 
+#   [[languages.en.menu.main]]
+#   parent = "科目介紹"
+#   name = "等我一下"
+#   URL = "service"
+#   weight = 3
 
 [[languages.en.menu.main]]
 name = "聯絡方式"
@@ -224,29 +224,34 @@ weight = 6
 
 # Footer menu
 [[languages.en.menu.footer]]
-name = "關於我們"
-URL = "about"
+name = "首頁"
+URL = "/"
 weight = 1
 
-[[languages.en.menu.footer]]
-name = "作品集"
-URL = "project"
-weight = 2
-
-[[languages.en.menu.footer]]
-name = "這裡"
-URL = "service"
-weight = 3
-
-[[languages.en.menu.footer]]
-name = "還在"
-URL = "pricing"
-weight = 4
-
-[[languages.en.menu.footer]]
-name = "整修"
-URL = "faq"
-weight = 5
+# [[languages.en.menu.footer]]
+# name = "關於我們"
+# URL = "about"
+# weight = 1
+# 
+# [[languages.en.menu.footer]]
+# name = "作品集"
+# URL = "project"
+# weight = 2
+# 
+# [[languages.en.menu.footer]]
+# name = "這裡"
+# URL = "service"
+# weight = 3
+# 
+# [[languages.en.menu.footer]]
+# name = "還在"
+# URL = "pricing"
+# weight = 4
+# 
+# [[languages.en.menu.footer]]
+# name = "整修"
+# URL = "faq"
+# weight = 5
 
 [[languages.en.menu.footer]]
 name = "聯絡方式"
