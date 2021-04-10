@@ -182,11 +182,11 @@ weight = 1
 # URL = "about"
 # weight = 2
 # 
-# [[languages.en.menu.main]]
-# name = "作品集"
-# URL = "project"
-# weight = 3
-# 
+[[languages.en.menu.main]]
+name = "作品集"
+URL = "project"
+weight = 3
+ 
 # [[languages.en.menu.main]]
 # name = "不知道要放什麼，所有文章？"
 # URL = "blog"
@@ -231,11 +231,11 @@ weight = 1
 # URL = "about"
 # weight = 1
 # 
-# [[languages.en.menu.footer]]
-# name = "作品集"
-# URL = "project"
-# weight = 2
-# 
+[[languages.en.menu.footer]]
+name = "作品集"
+URL = "project"
+weight = 2
+
 # [[languages.en.menu.footer]]
 # name = "這裡"
 # URL = "service"
